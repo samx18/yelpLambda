@@ -20,6 +20,7 @@ import pprint
 import requests
 import sys
 import urllib
+import config
 
 
 # This client code can run on Python 2.x or 3.x.  Your imports can be
@@ -41,7 +42,10 @@ except ImportError:
 # It now uses private keys to authenticate requests (API Key)
 # You can find it on
 # https://www.yelp.com/developers/v3/manage_app
-API_KEY= None 
+
+API_KEY= config.API_KEY
+
+#API_KEY= None 
 
 
 # API constants, you shouldn't have to change these.
