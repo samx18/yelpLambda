@@ -1,0 +1,52 @@
+{
+  "businesses": [
+    {
+      "id": "K3SftNo9XtllcVln3kgjIA",
+      "alias": "gottschalk-music-center-clovis",
+      "name": "Gottschalk Music Center",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/8yl9b9yJ_lJaPqH0fV6iAQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/gottschalk-music-center-clovis?adjust_creative=OuGtvwo6SjWFRWS5tOjMcg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=OuGtvwo6SjWFRWS5tOjMcg",
+      "review_count": 9,
+      "categories": [
+        {
+          "alias": "musicalinstrumentsandteachers",
+          "title": "Musical Instruments & Teachers"
+        },
+        {
+          "alias": "musicinstrumentservices",
+          "title": "Musical Instrument Services"
+        }
+      ],
+      "rating": 5,
+      "coordinates": {
+        "latitude": 36.82599,
+        "longitude": -119.70242
+      },
+      "transactions": [],
+      "location": {
+        "address1": "328 Pollasky Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Clovis",
+        "zip_code": "93612",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "328 Pollasky Ave",
+          "Clovis, CA 93612"
+        ]
+      },
+      "phone": "+15592984400",
+      "display_phone": "(559) 298-4400",
+      "distance": 60333.79539883616
+    }
+  ],
+  "total": 103,
+  "region": {
+    "center": {
+      "longitude": -119.3060302734375,
+      "latitude": 37.26682643661537
+    }
+  }
+}
