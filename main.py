@@ -3,6 +3,10 @@
 import json
 import requests
 import config
+import boto3
+
+# Get the service client
+s3 = boto3.client('s3')
 
 # Set global variables
 
@@ -38,6 +42,8 @@ def main():
 	# Close file when done
 	
 	file.close()
+
+	s3.upload_file("rating.csv", "ctrbot", "rating.csv")
 	
 	return
 
